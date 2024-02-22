@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="eng">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=devie-width,initial-scale=1.0">
+        <title>Banty- portfolio</title>
+        
+        <style>
+            *{
+                margin: 0;
+                padding: 0;
+            }
+             body{
+                background-color: rgb(8, 2, 54);
+                color: white;
+             }
+             nav{
+                display: flex;
+                justify-content:space-around;
+                align-items: center;
+                height: 80px;
+                background-color: rgba(18, 13, 113, 0.686);
+             }
+             nav ul{
+                display: flex;
+                justify-content: center;
+                
+             }
+             nav ul li {
+                list-style: none;
+                margin:0 23px ;
+                font-size: 120%;
+        
+             }
+             nav ul li a{
+                text-decoration: none;
+                color: white;
+             }
+             nav ul li a:hover{
+                color: rgb(118, 118, 238);
+                font-size: 1rem;
+
+             }
+             .left{
+                font-size: 50px;
+             }
+             .firstsection{
+                display: flex;
+                justify-content: space-around;
+                align-items: center;
+                margin: 100px 0;
+             }
+             .firstsection>div{
+                width: 40%;
+             }
+             .leftsection{
+                font-size: 3rem;
+                margin: 0 100px;
+             }
+             .rightsection img{
+                width: 70%;
+                margin: 51px 0;
+                
+             }
+             
+             .name{
+                color: rgb(127, 26, 235);
+             }
+             #element{
+                color: rgb(127, 26, 235);
+             }
+             main hr{
+                border: 0;
+                 background: rgb(127, 26, 235);
+                 height: 1px;
+                 margin: 40px 0;
+             }
+             .secondsec{
+                margin: 0 80px;
+                height: 40vh;
+                
+             }
+             .highlight{
+               color: violet;
+               font-style: italic;
+             }
+             .box{
+               width: 750px;
+               font-size: 25px;
+             }
+             .titlee{
+               font-size: 55px;
+             }
+             .secondsec{
+               display: flex;
+               justify-content: space-around;
+
+
+             }
+             .rightbox{
+               position: relative;
+               /* background-color: red; */
+               width:  430px;
+               height:150px;
+             }
+             .font{
+               font-size: 45px;
+             }
+             .thirdsec{
+               margin: 20px 0;
+               height: 100px;
+               font-size: 20px;
+             }
+             .fourthsec{
+               margin: 20px 0;
+               height:400px;
+               font-size: 20px;
+             }
+        </style>
+        </head>
+        <body>
+            <header>
+                <nav>
+                    <div class="left">
+                        Banty's Portfolio
+                    </div>
+                    <div class="right">
+                        <ul>
+                            <li><a href="http://127.0.0.1:5500/portfoliyo.html">Home</a></li>
+                            <li><a href="">About</a></li>
+                            <li><a href="/">Services</a> </li>
+                            <li><a href="/">Projects</a></li>
+                            <li><a href="/">Contact Me</a></li>
+                        </ul>
+                    </div>
+                </nav>
+            </header>
+            <main>
+                <section class="firstsection">
+                    <div class="leftsection">
+                        Hi,This is <span class="name">Banty</span> 
+                     <div>and I'm professional</div>
+                     <span id="element"></span>
+                     </div>
+
+
+                    
+                    <div class="rightsection">
+                        <img src="img.png" alt="image">
+                    </div>
+
+                </section>
+                    <hr>
+                    <h1 class="titlee">
+                        About :
+                    </h1>
+                    <section class="secondsec">
+
+                    <div class="box">Hello, my name is <span class="highlight">Banty</span>, and I am a recent graduate with a Bachelor of Computer Application. 
+                     I am enthusiastic about embarking on a career in <span class="highlight">Full-Stack Development</span>. 
+                     Throughout my academic journey, I have developed a strong foundation in key computer science concepts and 
+                     am excited to apply my knowledge in a professional setting.
+
+                    </div>
+                    <div class="rightbox">
+                     <img src="dspmu.jpeg" alt="image">
+                     <div class="font"><img src="dspmu1.jpeg" alt="">DSPMU</div>
+                    </div>
+                </section>
+                <hr>
+                <h1>Academic Background:
+               </h1>
+               <section class="thirdsec">
+                  <div>I recently completed my BCA degree, where I gained a comprehensive understanding of programming languages such as <span class="highlight">
+                      C/C++,JAVA,PYTHON, 
+                      DATA BASEMANGEMENT</span>, and software development methodologies.
+                       My academic projects, including <SPan class="highlight">[THIS PORTFOLIO]</SPan>,
+                        have equipped me with practical experience and problem-solving skills.
+
+
+
+                  </div>
+               </section>
+               <hr>
+               <h1>Relevant Skills:
+               </h1>
+               <section class="fourthsec">
+                  I possess strong analytical and problem-solving skills,
+                   honed through both coursework and hands-on projects. 
+                   I am proficient in <span class="highlight">programming language</span>, tools, or 
+                   technologies you are familiar with, e.g., <span class="highlight">Java, Python, SQL</span>.
+                    Additionally, I have a solid understanding of <span class="highlight">DSA in JAVA</span>
+
+
+               </section>
+            </main>
+            <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+            <!-- Setup and start animation! -->
+  <script>
+    var typed = new Typed('#element', {
+      strings: ['Web Developer', '  Teacher',' Athelte Too'],
+      typeSpeed: 80,
+    });
+  </script>
+        </body>
+</html>
